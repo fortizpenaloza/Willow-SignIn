@@ -1,11 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "WillowApplication",
+	"super" : "WAPainter",
 	"category" : "Willow-SignIn",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "SignInWillowApplication",
+	"instvars" : [
+		"usernameField",
+		"passwordField",
+		"signInButton"
+	],
+	"name" : "SignInFormWebView",
 	"type" : "normal"
 }

@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "WillowApplication",
-	"category" : "Willow-SignIn",
+	"super" : "WillowOnlineLibrary",
+	"category" : "Willow-SignIn-Libraries",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SignInWillowApplication",
+	"name" : "FontAwesomeOnlineLibrary",
 	"type" : "normal"
 }
