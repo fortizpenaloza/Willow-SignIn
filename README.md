@@ -7,6 +7,6 @@ Open a Playground and evaluate:
 Metacello new
 	baseline: 'WillowSignIn';
 	repository: 'github://fortizpenaloza/Willow-SignIn:master/source';
-	load: 'Developement'
+	load: 'Development'
 
 ```
