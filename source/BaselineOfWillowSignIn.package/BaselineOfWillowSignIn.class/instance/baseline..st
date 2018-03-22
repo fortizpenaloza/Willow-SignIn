@@ -9,4 +9,5 @@ baseline: spec
 				
 			spec
 				group: 'Deployment' with: #('Willow-SignIn');
+				group: 'Development' with: #('Willow-SignIn' 'OAuth2St');
 				group: 'default' with: #('Deployment') ]

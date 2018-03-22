@@ -6,6 +6,12 @@ setUpDependencies: spec
 		with: [ spec
 				repository: 'github://fortizpenaloza/OAuthSt:master/source';
 				loads: #('Deployment') ].
+	spec
+		baseline: 'OAuth2St-Dev'
+		with: [ spec
+				repository: 'github://fortizpenaloza/OAuthSt:master/source';
+				loads: #('Development') ].
+
 
 	spec
 		baseline: 'WillowMaterialize'
