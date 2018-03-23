@@ -1,4 +1,4 @@
 accessing
 contentView
 
-	^ SignInWebView new 
+	^ currentContentView 

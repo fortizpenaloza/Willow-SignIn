@@ -1,13 +1,16 @@
 {
 	"commentStamp" : "",
-	"super" : "WillowApplication",
+	"super" : "Object",
 	"category" : "Willow-SignIn",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"currentContentView"
+		"application",
+		"authorizationGrant",
+		"signedInUserBinding",
+		"alreadySignedIn"
 	],
-	"name" : "SignInWillowApplication",
+	"name" : "SignInWillowApplicationContext",
 	"type" : "normal"
 }

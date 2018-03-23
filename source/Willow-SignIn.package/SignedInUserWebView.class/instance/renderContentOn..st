@@ -9,8 +9,5 @@ renderContentOn: aCanvas
 				with: [ aCanvas div
 						class: (MaterializeCssStyles columnSmall: 4);
 						class: (MaterializeCssStyles offsetSmall: 4);
-						with: [ self
-								renderSignInUsingGoogleOn: aCanvas;
-								renderSignInUsingAuth0On: aCanvas;
-								renderBreakOn: aCanvas;
-								renderSignInFormOn: aCanvas ] ] ]
+						with:
+								[ self renderProfilePanelOn: aCanvas ] ] ]
