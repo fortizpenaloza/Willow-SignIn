@@ -1,4 +1,4 @@
 accessing
 authorizationUrl
 
-	^ self session applicationContext authorizationGrant authorizationUrl
+	^ self session applicationContext openIDProvider authorizationUrl

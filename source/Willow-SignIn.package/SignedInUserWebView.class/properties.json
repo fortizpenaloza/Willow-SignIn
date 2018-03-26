@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"profile"
+		"signedInUser"
 	],
 	"name" : "SignedInUserWebView",
 	"type" : "normal"

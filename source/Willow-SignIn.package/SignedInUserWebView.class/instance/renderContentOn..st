@@ -9,5 +9,4 @@ renderContentOn: aCanvas
 				with: [ aCanvas div
 						class: (MaterializeCssStyles columnSmall: 4);
 						class: (MaterializeCssStyles offsetSmall: 4);
-						with:
-								[ self renderProfilePanelOn: aCanvas ] ] ]
+						with: [ self renderProfilePanelOn: aCanvas ] ] ]

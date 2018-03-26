@@ -1,5 +1,5 @@
 private - rendering
-renderSignInUsingAuth0On: aCanvas
+renderSignInUsingOpenIDOn: aCanvas
 
 	| link |
 
@@ -11,7 +11,7 @@ renderSignInUsingAuth0On: aCanvas
 				class: MaterializeCssStyles left.
 			canvas
 				space;
-				render: 'Sign In with Willow' ]
+				render: 'Sign In with OpenID Connect' ]
 		applying: [ :button | 
 			button addClass materialize button + button addClass materialize wavesEffect
 				+ button addClass materialize wavesLight + button addClass materialize blue

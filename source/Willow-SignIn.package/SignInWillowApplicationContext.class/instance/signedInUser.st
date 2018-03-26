@@ -1,0 +1,4 @@
+accessing
+signedInUser
+	
+	^signedInUserBinding content

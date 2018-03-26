@@ -10,7 +10,6 @@ renderContentOn: aCanvas
 						class: (MaterializeCssStyles columnSmall: 4);
 						class: (MaterializeCssStyles offsetSmall: 4);
 						with: [ self
-								renderSignInUsingGoogleOn: aCanvas;
-								renderSignInUsingAuth0On: aCanvas;
+								renderSignInUsingOpenIDOn: aCanvas;
 								renderBreakOn: aCanvas;
 								renderSignInFormOn: aCanvas ] ] ]

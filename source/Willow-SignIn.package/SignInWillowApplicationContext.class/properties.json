@@ -9,7 +9,8 @@
 		"application",
 		"authorizationGrant",
 		"signedInUserBinding",
-		"alreadySignedIn"
+		"alreadySignedIn",
+		"openIDProvider"
 	],
 	"name" : "SignInWillowApplicationContext",
 	"type" : "normal"

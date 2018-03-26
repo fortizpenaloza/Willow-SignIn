@@ -3,4 +3,4 @@ renderJsonOn: aCanvas
 
 	aCanvas div
 		class: MaterializeCssStyles leftAlign;
-		with: [ aCanvas preformatted with: (STONJSON toStringPretty: profile) ]
+		with: [ aCanvas preformatted with: (STONJSON toStringPretty: signedInUser) ]

@@ -6,4 +6,4 @@ initializeWorkingOn: aSignInWillowApplication
 	
 	alreadySignedIn := false.
 
-	self initializeAuthorizationCodeGrant
+	self initializeOpenIDProvider
