@@ -11,7 +11,9 @@ initializeOpenIDProvider
 		addPathSegments: #('oauth' 'token');
 		yourself.
 
-	authorizationServer := OAuth2AuthorizationServer providingAuthorizationGrantsAt: authorizationEndpoint providingTokensAt: tokenEndpoint.
+	authorizationServer := OAuth2AuthorizationServer
+		providingAuthorizationGrantsAt: authorizationEndpoint
+		providingTokensAt: tokenEndpoint.
 
 	redirectionEndpoint := 'http://localhost:8080/sign-in' asZnUrl.
 	anIdentifier := '7Q7lAA9XzkyMGUhqGa9RC3GcNfObXCqW'.
@@ -24,7 +26,6 @@ initializeOpenIDProvider
 		redirectingTo: redirectionEndpoint.
 
 	openIDProvider := OpenIDProvider
-		issuedBy: issuer
 		providingUserInfoAt: (issuer copy addPathSegment: 'userinfo')
 		signingKeySetAt: (issuer copy addPathSegments: #('.well-known' 'jwks.json'))
 		using: client

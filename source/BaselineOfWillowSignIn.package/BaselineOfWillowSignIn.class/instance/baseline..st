@@ -7,9 +7,9 @@ baseline: spec
 		do: [ self setUpDependencies: spec.
 			spec
 				package: 'Willow-SignIn'
-				with: [ spec requires: #('OAuth2St' 'WillowMaterialize') ].
+				with: [ spec requires: #('OpenIDSt' 'WillowMaterialize') ].
 
 			spec
 				group: 'Deployment' with: #('Willow-SignIn');
-				group: 'Development' with: #('Willow-SignIn' 'OAuth2St-Dev');
+				group: 'Development' with: #('Willow-SignIn' 'OpenIDSt-Dev');
 				group: 'default' with: #('Deployment') ]

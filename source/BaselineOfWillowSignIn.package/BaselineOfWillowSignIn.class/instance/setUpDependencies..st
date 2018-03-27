@@ -2,14 +2,14 @@ baselines
 setUpDependencies: spec
 
 	spec
-		baseline: 'OAuth2St'
+		baseline: 'OpenIDSt'
 		with: [ spec
-				repository: 'github://fortizpenaloza/OAuthSt:master/source';
+				repository: 'github://fortizpenaloza/OpenIDSt:master/source';
 				loads: #('Deployment') ].
 	spec
-		project: 'OAuth2St-Dev'
+		project: 'OpenIDSt-Dev'
 		copyFrom: 'OAuth2St'
-		with: [ spec loads: #('OAuth2St-Tests') ].
+		with: [ spec loads: #('OpenIDSt-Tests') ].
 
 	spec
 		baseline: 'WillowMaterialize'
