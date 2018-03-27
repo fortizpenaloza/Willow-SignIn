@@ -8,7 +8,7 @@ setUpDependencies: spec
 				loads: #('Deployment') ].
 	spec
 		project: 'OpenIDSt-Dev'
-		copyFrom: 'OAuth2St'
+		copyFrom: 'OpenIDSt'
 		with: [ spec loads: #('OpenIDSt-Tests') ].
 
 	spec
