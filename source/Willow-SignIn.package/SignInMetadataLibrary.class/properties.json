@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "WillowFileMetadataLibrary",
+	"super" : "WADeploymentAwareFileMetadataLibrary",
 	"category" : "Willow-SignIn",
 	"classinstvars" : [ ],
 	"pools" : [ ],
