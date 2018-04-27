@@ -8,8 +8,8 @@ initialRequest: aRequest
 			| profile |
 
 			profile := self context openIDProvider
-				performOn: ZnClient new beOneShot
-				with: request url.
+				accessTokenUsing: ZnClient new beOneShot
+				afterBeingRedirectedTo: request url.
 			self context setSignedInUserTo: profile.
 			 self setContentViewTo: SignedInUserWebView new ]
 		ifUserAlreadySignedInDo: [ self setContentViewTo: SignedInUserWebView new ]
