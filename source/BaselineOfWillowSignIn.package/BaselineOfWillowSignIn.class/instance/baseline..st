@@ -11,5 +11,5 @@ baseline: spec
 
 			spec
 				group: 'Deployment' with: #('Willow-SignIn');
-				group: 'Development' with: #('Willow-SignIn' 'OpenIDSt-Dev');
+				group: 'Development' with: #('Willow-SignIn' 'Seaside-Develoment-Tools');
 				group: 'default' with: #('Deployment') ]
