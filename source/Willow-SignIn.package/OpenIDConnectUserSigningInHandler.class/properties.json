@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Willow-SignIn",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"redirectBlock",
+		"alreadySignedInBlock",
+		"notSignedInBlock"
+	],
+	"name" : "OpenIDConnectUserSigningInHandler",
+	"type" : "normal"
+}
